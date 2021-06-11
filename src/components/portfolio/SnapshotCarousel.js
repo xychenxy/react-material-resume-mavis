@@ -3,7 +3,6 @@ import Carousel from "react-material-ui-carousel";
 import { Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "../../pages/Styles/Portfolio.css";
-import warehouse1 from "../../assets/imgs/yu.jpeg";
 import foodifox1 from "../../assets/imgs/foodifox1.png";
 import foodifox2 from "../../assets/imgs/foodifox2.png";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
@@ -16,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
 	imgContainer: {
 		width: "100%",
 		marginBottom: theme.spacing(2),
-		// height: "50%",
 	},
 	header: {
 		textAlign: "center",

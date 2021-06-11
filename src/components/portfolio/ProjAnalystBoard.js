@@ -5,9 +5,6 @@ import DescriptionDivider from "../DescriptionDivider";
 import ProjTimeline from "./ProjTimeline";
 import ProjSnapshot from "./ProjSnapshot";
 import { makeStyles } from "@material-ui/core/styles";
-
-// import "../pages/Styles/Portfolio.css";
-
 const useStyles = makeStyles((theme) => ({
 	projectContainer: {
 		width: "100%",

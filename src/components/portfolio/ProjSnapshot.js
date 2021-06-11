@@ -108,6 +108,12 @@ const useStyles = makeStyles((theme) => ({
 		padding: theme.spacing(2, 4, 3),
 		width: "50%",
 		height: "auto",
+		[theme.breakpoints.down("md")]: {
+			width: "75%",
+		},
+		[theme.breakpoints.down("sm")]: {
+			width: "90%",
+		},
 	},
 	footer: {
 		textAlign: "right",
