@@ -30,11 +30,11 @@ import Portfolio from "../pages/Portfolio";
 import SkillSet from "../pages/Skillset";
 import HireMe from "../pages/HireMe";
 import Footer from "./Footer";
-import sideBarBkg from "../assets/imgs/download.jpeg";
 import sideBarAvatarBkg from "../assets/imgs/yu.jpeg";
 import bubbleBackground from "../assets/imgs/bubbleBackground.jpeg";
 import mainBackground from "../assets/imgs/mainBackground.jpeg";
-
+import goToTop from "../assets/imgs/startup.png";
+import ScrollToTop from "react-scroll-up";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -122,8 +122,9 @@ const useStyles = makeStyles((theme) => ({
 			display: "none",
 		},
 	},
-	socialIcon: {
-		// color: "#e15141",
+	goToTop: {
+		width: "50px",
+		height: "50px",
 	},
 }));
 
@@ -365,6 +366,9 @@ const SideBar = (props) => {
 						render={(props) => <HireMe {...props} />}
 					/>
 				</Switch>
+				<ScrollToTop showUnder={160}>
+					<img src={goToTop} alt="Up" className={classes.goToTop} />
+				</ScrollToTop>
 				{/* Footer */}
 				<Footer />
 				{/* end of Footer */}
