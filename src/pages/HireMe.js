@@ -4,7 +4,7 @@ import { Button, Typography } from "@material-ui/core";
 import Timeline from "@material-ui/lab/Timeline";
 import HireMeTimeLine from "../components/hireMe/HireMeTimeLine";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
-import myCV from "../assets/imgs/yu.jpeg";
+import myCV from "../assets/XIAOYU-CHEN_CV.pdf";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
