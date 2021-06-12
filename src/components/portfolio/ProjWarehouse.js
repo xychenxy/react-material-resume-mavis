@@ -148,10 +148,7 @@ const ProjWarehouse = () => {
 								Tracking stock levels via Dear Inventory System
 								API
 							</li>
-							<li>
-								Tinting paints which customers have already
-								customize color by PICO
-							</li>
+							<li>Tinting customized colour paints</li>
 							<li>
 								Showing all delivery fees, expected delivery
 								days and delivery methods via Uber, Australia

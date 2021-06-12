@@ -19,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	header: {
 		width: "100%",
-		height: "50px",
+		paddingTop: theme.spacing(1),
+		paddingBottom: theme.spacing(1),
 		backgroundColor: "rgba(80, 160, 85, 0.7)",
 		marginBottom: "16px",
 		display: "flex",

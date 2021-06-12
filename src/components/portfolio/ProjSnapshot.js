@@ -9,7 +9,7 @@ import {
 	Button,
 } from "@material-ui/core";
 import SnapshotCarousel from "./SnapshotCarousel";
-import warehouseSystemSnapshot from "../../assets/imgs/yu.jpeg";
+import warehouseSystemSnapshot from "../../assets/imgs/mainBackground.jpeg";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
